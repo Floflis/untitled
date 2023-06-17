@@ -1,0 +1,5 @@
+This is a library used by programs that saves untitled files when user wants; like MS Office and Paint.
+
+untitled knows how to name the files; the only work your program have is to pass "save" to the untitled lib.
+
+The first file it saves as `Untitled {name-you-want}`. Next, it starts adding numbers, like `Untitled {name-you-want} 2`, `Untitled {name-you-want} 3` and increasing.
